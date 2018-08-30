@@ -1,0 +1,93 @@
+@media only screen and (max-width:1200px){
+    #skill-table {
+        width:300px;
+    }
+    .skills-label {
+        width:125px;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width:800px){
+    #topnav { display:none; }
+    #mobilenav { display:block; }
+    /* *************************
+    Sprite Modification*/
+    .margin {
+        top:75px;
+    }
+    #left-margin {
+        right:80%;
+    }
+    /* *************************
+    Welcomeboard Modification*/
+    #welcomeboard {
+        font-size: 2.5em;
+    }
+    #section-title {
+        font-size:1.5em;
+    }
+    /* *************************
+    About/Contact Modification*/
+    #biophoto {
+        width:200px;
+        height:200px;
+        margin: 0 auto;
+        float:none;
+    }
+    #contact-div {
+        text-align:left;
+    }
+    #emailtext {
+        font-size: 1em !important;
+    }    
+    /* *************************
+    Case Study Modification*/
+    #case-study {
+        top:50px;
+        bottom:0;
+        width:100%;
+        margin:0;
+        left:0;
+        padding-left:10px;
+    }
+    #close-study {
+        right:5%;
+    }
+    .casestudy-paragraph {
+        padding-left:0px;
+        text-indent:5%;
+        max-width:95%;
+    }
+    .casestudy-listitem li {
+        margin-left:-5%;
+        max-width:95%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        max-width: 95%;
+    }
+    /* *************************
+    Project Block Modification*/
+    .project-block {
+        width:350px;
+        height:175px;
+    }
+    .block-overlay p {
+        padding-top:15%;
+    }
+}
+@media only screen and (max-width:600px){
+    html {
+        overflow-x:hidden;
+    }
+    #welcomeboard {
+        font-size: 1.7em;
+    }
+    #section-title{
+        font-size:1.4em;
+    }
+    #left-margin {
+        top:60px;
+        right:70%;
+    }
+}

@@ -1,0 +1,68 @@
+#skill-table {
+    width:800px;
+}
+.skills-label {
+    display:inline-block;
+    font-weight:bold;
+    border-right:2px dashed black;
+    padding-right:10px;
+    width:150px;
+    text-align:right;
+    margin-bottom:10px;
+}
+.skills-nodes {
+    display:inline-block;
+    cursor:pointer;
+    user-select: none;
+    padding-left:10px;
+}
+.blank-node {
+    display:inline-block;
+    width:10px;
+    height:10px;
+    margin:2.5px;
+    background-color:grey;
+    border:1px solid black;
+}
+.filled-node {
+    display:inline-block;
+    width:15px;
+    height:15px;
+    background-color:#0099FF;
+    border:1px solid black;
+}
+/* 
+    All below effects were templates or directly used from hover.css which can be found at the following link: https://github.com/IanLunn/Hover/blob/master/README.md#hovercss
+*/
+/* Bounce In */
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.6);
+  transform: scale(1.6);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+/* Bounce Out */
+.hvr-bounce-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-out:hover, .hvr-bounce-out:focus, .hvr-bounce-out:active {
+  -webkit-transform: scale(0.4);
+  transform: scale(0.4);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}

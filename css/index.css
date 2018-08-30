@@ -1,0 +1,33 @@
+/* *************************
+General Layout */
+.primary-fade {
+    opacity:0;
+}
+::selection {
+    background: #000000; /* WebKit/Blink Browsers */
+    color:#FFFFFF;
+}
+#container {
+    position:relative;
+    width:70%;
+    margin:70px 15% 0 15%;
+}
+.margin {
+    position:absolute;
+    max-height:100%;
+    top:250px;
+}
+/* *************************
+Welcomeboard */
+#welcomeboard {
+    height:200px;
+    line-height:200px;
+    font-size:5em;
+    text-align:center;
+    cursor:default;
+    user-select:none; /* Disables Text-Highlighting */
+}
+#notification, #botnav {
+    text-align:center;
+    margin: 0 auto;
+}
